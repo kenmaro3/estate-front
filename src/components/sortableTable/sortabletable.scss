@@ -1,0 +1,31 @@
+table {
+    border-spacing: 0;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+table tr :last-child td {
+    border-bottom: 0;
+}
+
+table th,
+table td {
+    min-width: 80px;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 14px;
+}
+
+table th :last-child,
+table td :last-child {
+    border-right: 0;
+}
+
+.btn {
+    background-color: blue;
+    border-radius: 9999px;
+    padding: 0.5rem 2rem;
+    color: white;
+  }

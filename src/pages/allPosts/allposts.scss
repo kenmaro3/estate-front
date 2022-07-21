@@ -1,0 +1,75 @@
+.allPostsContainer{
+    margin-top: 60px;
+    width: 60%;
+    margin-left: 20%;
+
+    .allPostsContainerHeader{
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 32px;
+        }
+        .description{
+            margin-left: 20px;
+            color: #5c5c5c;
+        }
+    }
+
+    .allPostsContainerMain{
+        display: flex;
+        margin-top: 30px;
+
+        .allPostsConditionSearchContainer{
+            flex: 3;
+            background-color: white;
+            border-radius: 20px;
+
+        }
+
+        .allPostsPostItemContainer{
+            flex: 7;
+            background-color: white;
+            border-radius: 20px;
+            margin-left: 30px;
+        }
+
+    }
+}
+
+.allPostsContainerMobile{
+    margin-top: 60px;
+    width: 90%;
+    margin-left: 5%;
+
+    .allPostsContainerHeader{
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 32px;
+        }
+        .description{
+            margin-left: 20px;
+            color: #5c5c5c;
+        }
+    }
+
+    .allPostsContainerMain{
+        display: flex;
+        margin-top: 30px;
+
+        .allPostsConditionSearchContainer{
+            flex: 3;
+            background-color: white;
+            border-radius: 20px;
+
+        }
+
+        .allPostsPostItemContainer{
+            flex: 7;
+            background-color: white;
+            border-radius: 20px;
+            margin-left: 30px;
+        }
+
+    }
+}

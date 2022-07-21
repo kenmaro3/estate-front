@@ -1,0 +1,17 @@
+.layout {
+  height: 100vh;
+
+  //position: relative;
+  .main {
+    background-color: #f9f9f9;
+    border-top: 1px solid lightgray;
+    min-height: calc(100vh);
+    overflow-x: scroll;
+
+    .mainWrapper {
+      // width: fit-content;
+      margin: 0;
+      
+    }
+  }
+}

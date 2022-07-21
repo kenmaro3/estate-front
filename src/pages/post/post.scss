@@ -1,0 +1,175 @@
+.postContainer {
+  .postCard {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 100%;
+    padding: 3% 5%;
+
+    .header {
+      .title {
+        margin-top: 5px;
+        font-size: 32px;
+        font-weight: 600;
+      }
+
+      .address {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #787878;
+
+      }
+    }
+
+    .segment {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e4e4e4;
+      padding-bottom: 20px;
+
+      .active {
+        border-bottom: 1px solid var(--blue);
+        color: var(--blue);
+
+      }
+
+      .placeInfo {}
+
+      .post {
+        margin-left: 20px;
+      }
+    }
+
+    .contentContainer {
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 60px;
+
+      .header {
+        display: flex;
+        align-items: center;
+
+        .left {
+          .container {
+            display: flex;
+            align-items: center;
+
+            .image {}
+
+            .nameContainer {
+              margin-left: 20px;
+
+              .name {
+                font-size: 18px;
+                font-weight: 400;
+              }
+
+              .date {
+                font-size: 13px;
+                font-weight: 200;
+                color: #787878;
+              }
+            }
+          }
+
+        }
+
+        .right {
+          margin-left: auto;
+
+          .option {}
+        }
+      }
+
+      .text {
+        margin-top: 40px;
+        color: #484848;
+      }
+
+      .footer {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+
+        .like {
+          display: flex;
+          align-items: center;
+
+          .icon {}
+
+          .number {
+            margin-left: 5px;
+          }
+        }
+
+        .comment {
+          margin-left: 20px;
+          display: flex;
+          align-items: center;
+
+          .icon {}
+
+          .number {
+            margin-left: 5px;
+          }
+        }
+      }
+
+      .commentContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+
+        textarea {
+          width: 100%;
+          height: 100px;
+          padding: 10px;
+          border-color: #e4e4e4;
+        }
+
+        .buttonContainer {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .submit {
+            margin-top: 20px;
+            border-radius: 8px;
+            padding: 10px 20px;
+            background-color: var(--blue);
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+
+          }
+
+          .other_post {
+            margin-top: 20px;
+            border-radius: 8px;
+            padding: 6px 20px;
+            border: 2px solid var(--blue);
+            background-color: white;
+            color: var(--blue);
+            font-size: 16px;
+            font-weight: 500;
+
+          }
+
+
+        }
+
+
+      }
+    }
+
+  }
+
+}
