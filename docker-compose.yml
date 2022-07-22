@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  #api:
+  #  container_name: backend
+  #  build: .
+  #  tty: true
+  #  ports:
+  #    - "5101:5101"
+
+ estate-front:
+   image: estate-front:latest
+   ports: ["80:80"]
+
+
+ estate-flask:
+   image: estate-flask:latest
+   ports: ["8888:8888"]
+   env_file:
+     - .env
